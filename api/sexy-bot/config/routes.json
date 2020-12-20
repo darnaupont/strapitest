@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sexy-bots",
+      "handler": "sexy-bot.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sexy-bots/count",
+      "handler": "sexy-bot.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sexy-bots/:id",
+      "handler": "sexy-bot.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sexy-bots",
+      "handler": "sexy-bot.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sexy-bots/:id",
+      "handler": "sexy-bot.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sexy-bots/:id",
+      "handler": "sexy-bot.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
